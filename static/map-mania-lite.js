@@ -23,7 +23,7 @@ function initMap() {
         console.log('function updateGame() google-maps-step-03!');
         var zoomLevel = gMap.getZoom();
         var inBounds = false;
-        var boundsChanged = gMap.get;
+        var boundsChanged = gMap.getBounds();
 
         if (gMap.getBounds().contains({ lat: 45.3306, lng: -91.4918 })) {
             inBounds = true;
